@@ -91,7 +91,7 @@ class DramaboxService {
       throw new Error(`Error fetching bearer token: ${response.statusText}`)
     }
 
-    const data: GetBearerResponse = await response.json()
+    const data = (await response.json()) as GetBearerResponse
 
     if (!data.success || !data.data?.user?.token) {
       throw new Error('Invalid bearer token response')
