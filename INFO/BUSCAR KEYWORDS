@@ -1,0 +1,56 @@
+const fetch = require('node-fetch');
+
+let url = 'https://sapi.dramaboxdb.com/drama-box/search/suggest?timestamp=1768016639809';
+
+let options = {
+  method: 'POST',
+  headers: {
+    version: '480',
+    'package-name': 'com.storymatrix.drama',
+    p: '47',
+    cid: 'DRA1000042',
+    apn: '2',
+    'country-code': 'PY',
+    mchid: '',
+    mbid: '',
+    tz: '180',
+    language: 'es',
+    mcc: '744',
+    locale: 'es_US',
+    'device-id': '917d3745-e595-4846-a69b-048568393995',
+    nchid: 'DRA1000042',
+    instanceid: '6d01ec0d9499e0c15d3bfa268352efbf',
+    md: 'Redmi Note 8',
+    'store-source': 'store_google',
+    mf: 'XIAOMI',
+    'local-time': '2026-01-10 00:39:49.413 -0300',
+    'time-zone': '-0300',
+    brand: 'Xiaomi',
+    lat: '0',
+    'current-language': 'es',
+    ov: '13',
+    userid: '389033070',
+    afid: '1768016354787-6522693864639817617',
+    'android-id': '000000004b1fb2184b1fb21800000000',
+    srn: '1080x2340',
+    ins: '1768016354790',
+    build: 'Build/TQ2B.230505.005.A1',
+    pline: 'ANDROID',
+    vn: '4.8.0',
+    'over-flow': 'new-fly',
+    tn: 'Bearer ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnlaV2RwYzNSbGNsUjVjR1VpT2lKVVJVMVFJaXdpZFhObGNrbGtJam96T0Rrd016TXdOekI5LjBaZ0lGZC1ydzZRbU5pclI4LVVfZjl5eGFvTlNqOW5BNVJsRzg5T0J1RnM=',
+    sn: 'LxronqxR3GKHRD7PuMEa82M2rW7iykI5aGYOEGeXtU9vojyYpRNyxUmRzpSKFfbwXf/W5dQe+ZP1NNf7ljJjwzeh6GfiV0QP9mZzT/pdZ4lFIywAiqfHrVNIjy4lbJcgxCtfr5f2CZRYSyaqUuG/puGkenbBmUM9+tqjmGq6hDHS4oekzlKiIDPyu2/Ud9t9xKkiT590lY7pUB/Q6woU5iSnFVfo4TH6OCFs49VFZoxbEHfntRDZbkXzIWhAxZR+DFW7bO8yr2tuErycSe875jNi+Alu1S/6zAdv9pA0hnau+KbKdgK5f2mk7iMC/+12a8MWpOqtsxb1zbe8zWq6AA==',
+    'active-time': '250395',
+    'content-type': 'application/json; charset=UTF-8',
+    host: 'sapi.dramaboxdb.com',
+    connection: 'Keep-Alive',
+    'accept-encoding': 'gzip',
+    'user-agent': 'okhttp/4.10.0'
+  },
+  body: '{"keyword":"camilo"}'
+};
+
+fetch(url, options)
+  .then(res => res.json())
+  .then(json => console.log(json))
+  .catch(err => console.error('error:' + err));

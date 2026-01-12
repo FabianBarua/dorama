@@ -1,0 +1,1149 @@
+{
+  "data": {
+    "bannerList": [],
+    "watchHistory": [],
+    "columnVoList": [
+      {
+        "columnId": 446,
+        "title": "Le Puede Gustar",
+        "subTitle": "",
+        "style": "ALGORITHM_STYLE",
+        "bookList": [
+          {
+            "bookId": "41000121487",
+            "bookName": "El mundo a mis pies (Doblado)",
+            "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000121487/41000121487.jpg?t=1765528995635",
+            "chapterCount": 74,
+            "introduction": "Luis Santos, un joven desempleado de la Tierra, viajó accidentalmente al pasado y llegó a la antigua dinastía Gransol, donde se convirtió en un pobre erudito que apenas sobrevivía. Justo entonces, el gobierno imperial implementó una política para emparejar a solteros con esposas asignadas con el fin de recaudar grano. Pensó que serían feas, pero entre ellas había una princesa oculta, una hija de general y una heredera comerciante.",
+            "tags": [
+              "Basado en Sistema",
+              "De Débil a Fuerte",
+              "Viaje en el Tiempo",
+              "Armadura de Guion",
+              "Histórico",
+              "Protagonista Masculino Dominante"
+            ],
+            "tagV3s": [
+              {
+                "tagId": 1346,
+                "tagName": "Basado en Sistema",
+                "tagEnName": "Gamified World"
+              },
+              {
+                "tagId": 1339,
+                "tagName": "De Débil a Fuerte",
+                "tagEnName": "Underdog Story"
+              },
+              {
+                "tagId": 1344,
+                "tagName": "Viaje en el Tiempo",
+                "tagEnName": "Time Travel"
+              },
+              {
+                "tagId": 1334,
+                "tagName": "Armadura de Guion",
+                "tagEnName": "The Chosen One"
+              },
+              {
+                "tagId": 1319,
+                "tagName": "Histórico",
+                "tagEnName": "Historical"
+              },
+              {
+                "tagId": 1323,
+                "tagName": "Protagonista Masculino Dominante",
+                "tagEnName": "Powerful Male Lead"
+              }
+            ],
+            "bookSource": {
+              "sceneId": "ovs_vd_cnxh_rec",
+              "expId": "bigdata_rec",
+              "strategyId": "go45niq9",
+              "strategyName": "",
+              "log_id": "dda0fb18ce740ecc9490f0bf86d33d4f"
+            },
+            "isEntry": 0,
+            "index": 0,
+            "corner": {
+              "cornerType": 6,
+              "name": "Popular",
+              "color": "#FF2965"
+            },
+            "dataFrom": "算法_推荐剧",
+            "cardType": 1,
+            "rankVo": {
+              "rankType": 2,
+              "hotCode": "99.3K",
+              "recCopy": "Tendencias #2",
+              "sort": 2
+            },
+            "markNamesConnectKey": ", ",
+            "algorithmRecomDot": "{\"log_id\":\"dda0fb18ce740ecc9490f0bf86d33d4f\",\"ret_time\":\"1768013603865\",\"scene_id\":\"ovs_vd_cnxh_rec\",\"rec_id\":\"bigdata_rec\"}",
+            "playCount": "129M",
+            "bookShelfTime": 1758090275000,
+            "shelfTime": "2025-09-17 14:24:35",
+            "inLibrary": false
+          },
+          {
+            "bookId": "41000120981",
+            "bookName": "El dolor después del adiós (Doblado)",
+            "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000120981/41000120981.jpg?t=1766974849986",
+            "chapterCount": 75,
+            "introduction": "Para compensarle por su amabilidad, Nero firma un contrato secreto con el padre de Clara en el que afirma que se casará con ella durante 5 años y le ayudará a recuperarse de una ruptura con su primer amor, Simón. Durante su matrimonio contractual, Nero es muy atento y cariñoso hacia Clara, pero ella se limita a tratarle a él como un sustituto de Simón. Cuando el contrato finaliza, Nero descubre la obsesión de Clara hacia Simón, y finalmente decide divorciarse de ella.",
+            "tags": [
+              "Demasiado Tarde",
+              "Traición",
+              "Triángulo Amoroso",
+              "Moderno",
+              "Protagonista Masculino Dominante"
+            ],
+            "tagV3s": [
+              {
+                "tagId": 1658,
+                "tagName": "Demasiado Tarde",
+                "tagEnName": "All-Too-Late"
+              },
+              {
+                "tagId": 1341,
+                "tagName": "Traición",
+                "tagEnName": "Betrayal"
+              },
+              {
+                "tagId": 1413,
+                "tagName": "Triángulo Amoroso",
+                "tagEnName": "Love Triangle"
+              },
+              {
+                "tagId": 1318,
+                "tagName": "Moderno",
+                "tagEnName": "Modern"
+              },
+              {
+                "tagId": 1323,
+                "tagName": "Protagonista Masculino Dominante",
+                "tagEnName": "Powerful Male Lead"
+              }
+            ],
+            "bookSource": {
+              "sceneId": "ovs_vd_cnxh_rec",
+              "expId": "bigdata_rec",
+              "strategyId": "go45niq9",
+              "strategyName": "",
+              "log_id": "dda0fb18ce740ecc9490f0bf86d33d4f"
+            },
+            "isEntry": 0,
+            "index": 0,
+            "corner": {
+              "cornerType": 6,
+              "name": "Popular",
+              "color": "#FF2965"
+            },
+            "dataFrom": "算法_推荐剧",
+            "cardType": 1,
+            "rankVo": {
+              "rankType": 1,
+              "hotCode": "559K",
+              "recCopy": "Populares #7",
+              "sort": 7
+            },
+            "markNamesConnectKey": ", ",
+            "algorithmRecomDot": "{\"log_id\":\"dda0fb18ce740ecc9490f0bf86d33d4f\",\"ret_time\":\"1768013603865\",\"scene_id\":\"ovs_vd_cnxh_rec\",\"rec_id\":\"bigdata_rec\"}",
+            "playCount": "105M",
+            "bookShelfTime": 1757055047000,
+            "shelfTime": "2025-09-05 14:50:47",
+            "inLibrary": false
+          },
+          {
+            "bookId": "42000001324",
+            "bookName": "Un trato con mi donante multimillonario (Doblado)",
+            "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000001324/42000001324.jpg?t=1765529465573",
+            "chapterCount": 61,
+            "introduction": "Clara Mira, diagnosticada con fallo ovárico prematuro, jura quedar embarazada antes de que la nueva novia de su ex dé a luz. Aparece Elías Ríos, un milmillonario que necesita casarse para no perder su herencia. Juntos firman un \"contrato de semen\" para su beneficio mutuo. Pero cuando Elías se convierte en su jefe, la relación comienza a complicarse y las emociones surgen. ¿Puede un matrimonio falso, nacido del orgullo, convertirse en un amor verdadero?",
+            "tags": [
+              "Amante del Contrato",
+              "Amor Destinado",
+              "CEO",
+              "Romance en Oficina",
+              "Amor Después del Matrimonio",
+              "Moderno"
+            ],
+            "tagV3s": [
+              {
+                "tagId": 1621,
+                "tagName": "Amante del Contrato",
+                "tagEnName": "Contract Lover"
+              },
+              {
+                "tagId": 1382,
+                "tagName": "Amor Destinado",
+                "tagEnName": "Destined Love"
+              },
+              {
+                "tagId": 1362,
+                "tagName": "CEO",
+                "tagEnName": "Billionaire"
+              },
+              {
+                "tagId": 1388,
+                "tagName": "Romance en Oficina",
+                "tagEnName": "Office Romance"
+              },
+              {
+                "tagId": 1393,
+                "tagName": "Amor Después del Matrimonio",
+                "tagEnName": "Love After Marriage"
+              },
+              {
+                "tagId": 1352,
+                "tagName": "Moderno",
+                "tagEnName": "Modern"
+              }
+            ],
+            "bookSource": {
+              "sceneId": "ovs_vd_cnxh_rec",
+              "expId": "bigdata_rec",
+              "strategyId": "go45niq9",
+              "strategyName": "",
+              "log_id": "dda0fb18ce740ecc9490f0bf86d33d4f"
+            },
+            "isEntry": 0,
+            "index": 0,
+            "corner": {
+              "cornerType": 6,
+              "name": "Popular",
+              "color": "#FF2965"
+            },
+            "dataFrom": "算法_推荐剧",
+            "cardType": 1,
+            "rankVo": {
+              "rankType": 1,
+              "hotCode": "529K",
+              "recCopy": "Populares #9",
+              "sort": 9
+            },
+            "markNamesConnectKey": ", ",
+            "algorithmRecomDot": "{\"log_id\":\"dda0fb18ce740ecc9490f0bf86d33d4f\",\"ret_time\":\"1768013603865\",\"scene_id\":\"ovs_vd_cnxh_rec\",\"rec_id\":\"bigdata_rec\"}",
+            "playCount": "24.4M",
+            "bookShelfTime": 1765520784000,
+            "shelfTime": "2025-12-12 14:26:24",
+            "inLibrary": false
+          },
+          {
+            "bookId": "42000002735",
+            "bookName": "Reencuentro Afortunado con Mi Hija de Tesoro (Doblado)",
+            "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000002735/42000002735.jpg?t=1766654578958",
+            "chapterCount": 75,
+            "introduction": "La pequeña médica Ana, nacida con un destino de pobreza, fue expulsada por su maestro y fue a la cuidad. Por casualidad, salvó a una anciana, quien luego la adoptó y la llevó a casa. Allí, Ana reconoció como padre al poderoso magnate David Santos, quien sufría de una discapacidad en las piernas. Ana comenzó a tratarle las piernas y a disipar la energía oscura que lo rodeaba, hasta que, inesperadamente, apareció un colgante de jade idéntico al de David…",
+            "tags": [
+              "Lazos Familiares",
+              "Bebés Genios",
+              "Identidad Oculta",
+              "Moderno",
+              "Romántico"
+            ],
+            "tagV3s": [
+              {
+                "tagId": 1408,
+                "tagName": "Lazos Familiares",
+                "tagEnName": "Family Bonds"
+              },
+              {
+                "tagId": 1460,
+                "tagName": "Bebés Genios",
+                "tagEnName": "Genius Babies"
+              },
+              {
+                "tagId": 1395,
+                "tagName": "Identidad Oculta",
+                "tagEnName": "Hidden Identity"
+              },
+              {
+                "tagId": 1352,
+                "tagName": "Moderno",
+                "tagEnName": "Modern"
+              },
+              {
+                "tagId": 1357,
+                "tagName": "Romántico",
+                "tagEnName": "Romance"
+              }
+            ],
+            "bookSource": {
+              "sceneId": "ovs_vd_cnxh_rec",
+              "expId": "bigdata_rec",
+              "strategyId": "go45niq9",
+              "strategyName": "",
+              "log_id": "dda0fb18ce740ecc9490f0bf86d33d4f"
+            },
+            "isEntry": 0,
+            "index": 0,
+            "corner": {
+              "cornerType": 6,
+              "name": "Popular",
+              "color": "#FF2965"
+            },
+            "dataFrom": "算法_推荐剧",
+            "cardType": 1,
+            "rankVo": {
+              "rankType": 2,
+              "hotCode": "89.5K",
+              "recCopy": "Tendencias #3",
+              "sort": 3
+            },
+            "markNamesConnectKey": ", ",
+            "algorithmRecomDot": "{\"log_id\":\"dda0fb18ce740ecc9490f0bf86d33d4f\",\"ret_time\":\"1768013603865\",\"scene_id\":\"ovs_vd_cnxh_rec\",\"rec_id\":\"bigdata_rec\"}",
+            "playCount": "10.4M",
+            "bookShelfTime": 1766728673000,
+            "shelfTime": "2025-12-26 13:57:53",
+            "inLibrary": false
+          },
+          {
+            "bookId": "42000001848",
+            "bookName": "Entre sombras y mentiras",
+            "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000001848/42000001848.jpg?t=1765964719542",
+            "chapterCount": 71,
+            "introduction": "Victoria García, considerada de mala suerte y criada en el campo, se casa tres años como sustituta de su gemela Valeria, que huyó de un matrimonio arreglado. Su esposo, Iván Fernández, está enamorado de otra mujer. Durante el matrimonio, Victoria enfrenta indiferencia, maltratos y humillaciones, pero se consuela con la promesa de libertad y cuatro millones de dólares. Cumplido el acuerdo, desaparece para empezar una nueva vida.",
+            "tags": [
+              "Persecución de Esposa",
+              "Amor Después del Divorcio",
+              "Mujer Independiente",
+              "Moderno",
+              "Romántico",
+              "BG"
+            ],
+            "tagV3s": [
+              {
+                "tagId": 1401,
+                "tagName": "Persecución de Esposa",
+                "tagEnName": "Winning Her Back"
+              },
+              {
+                "tagId": 1636,
+                "tagName": "Amor Después del Divorcio",
+                "tagEnName": "Love After Divorce"
+              },
+              {
+                "tagId": 1452,
+                "tagName": "Mujer Independiente",
+                "tagEnName": "Independent Woman"
+              },
+              {
+                "tagId": 1352,
+                "tagName": "Moderno",
+                "tagEnName": "Modern"
+              },
+              {
+                "tagId": 1357,
+                "tagName": "Romántico",
+                "tagEnName": "Romance"
+              },
+              {
+                "tagId": 1358,
+                "tagName": "BG",
+                "tagEnName": "BG"
+              }
+            ],
+            "bookSource": {
+              "sceneId": "ovs_vd_cnxh_rec",
+              "expId": "bigdata_rec",
+              "strategyId": "go45niq9",
+              "strategyName": "",
+              "log_id": "dda0fb18ce740ecc9490f0bf86d33d4f"
+            },
+            "isEntry": 0,
+            "index": 0,
+            "dataFrom": "算法_推荐剧",
+            "cardType": 1,
+            "markNamesConnectKey": ", ",
+            "algorithmRecomDot": "{\"log_id\":\"dda0fb18ce740ecc9490f0bf86d33d4f\",\"ret_time\":\"1768013603866\",\"scene_id\":\"ovs_vd_cnxh_rec\",\"rec_id\":\"bigdata_rec\"}",
+            "playCount": "6.4M",
+            "bookShelfTime": 1766025172000,
+            "shelfTime": "2025-12-18 10:32:52",
+            "inLibrary": false
+          },
+          {
+            "bookId": "42000002812",
+            "bookName": "Su amor es una mentira (Doblado)",
+            "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000002812/42000002812.jpg?t=1766718899446",
+            "chapterCount": 57,
+            "introduction": "Tras dos años de matrimonio sin pasión, Carlota descubre que su esposo frío ha estado secretamente enamorado de su hermanastra todo el tiempo - y ella solo ha sido su bunker. Así que ella le dice la verdad a su hermanastra y lo deja, pero él termina arrepintiéndose.",
+            "tags": [
+              "Persecución de Esposa",
+              "Traición",
+              "Triángulo Amoroso",
+              "Demasiado Tarde",
+              "Moderno",
+              "Romántico"
+            ],
+            "tagV3s": [
+              {
+                "tagId": 1401,
+                "tagName": "Persecución de Esposa",
+                "tagEnName": "Winning Her Back"
+              },
+              {
+                "tagId": 1400,
+                "tagName": "Traición",
+                "tagEnName": "Betrayal"
+              },
+              {
+                "tagId": 1380,
+                "tagName": "Triángulo Amoroso",
+                "tagEnName": "Love Triangle"
+              },
+              {
+                "tagId": 1654,
+                "tagName": "Demasiado Tarde",
+                "tagEnName": "All-Too-Late"
+              },
+              {
+                "tagId": 1352,
+                "tagName": "Moderno",
+                "tagEnName": "Modern"
+              },
+              {
+                "tagId": 1357,
+                "tagName": "Romántico",
+                "tagEnName": "Romance"
+              }
+            ],
+            "bookSource": {
+              "sceneId": "ovs_vd_cnxh_rec",
+              "expId": "bigdata_rec",
+              "strategyId": "go45niq9",
+              "strategyName": "",
+              "log_id": "dda0fb18ce740ecc9490f0bf86d33d4f"
+            },
+            "isEntry": 0,
+            "index": 0,
+            "corner": {
+              "cornerType": 3,
+              "name": "Doblado",
+              "color": "#4D65ED"
+            },
+            "dataFrom": "算法_推荐剧",
+            "cardType": 1,
+            "markNamesConnectKey": ", ",
+            "algorithmRecomDot": "{\"log_id\":\"dda0fb18ce740ecc9490f0bf86d33d4f\",\"ret_time\":\"1768013603866\",\"scene_id\":\"ovs_vd_cnxh_rec\",\"rec_id\":\"bigdata_rec\"}",
+            "playCount": "5M",
+            "bookShelfTime": 1766730652000,
+            "shelfTime": "2025-12-26 14:30:52",
+            "inLibrary": false
+          },
+          {
+            "bookId": "42000002421",
+            "bookName": "¡De verdad soy un inmortal! (Doblado)",
+            "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000002421/42000002421.jpg?t=1766543317155",
+            "chapterCount": 88,
+            "introduction": "Luna pensó que había engañado a su esposo, Leo, para que fuera a la montaña a cargar con su mala racha, pero en realidad, él fue a heredar el manto del viejo Inmortal. Regresa después de cinco años, el inútil se convierte en un inmortal.",
+            "tags": [
+              "Identidad Oculta",
+              "Yerno",
+              "Contraataque",
+              "Armadura de Guion",
+              "Moderno",
+              "Protagonista Masculino Dominante"
+            ],
+            "tagV3s": [
+              {
+                "tagId": 1338,
+                "tagName": "Identidad Oculta",
+                "tagEnName": "Hidden Identity"
+              },
+              {
+                "tagId": 1329,
+                "tagName": "Yerno",
+                "tagEnName": "Son-in-Law"
+              },
+              {
+                "tagId": 1340,
+                "tagName": "Contraataque",
+                "tagEnName": "Counterattack"
+              },
+              {
+                "tagId": 1334,
+                "tagName": "Armadura de Guion",
+                "tagEnName": "The Chosen One"
+              },
+              {
+                "tagId": 1318,
+                "tagName": "Moderno",
+                "tagEnName": "Modern"
+              },
+              {
+                "tagId": 1323,
+                "tagName": "Protagonista Masculino Dominante",
+                "tagEnName": "Powerful Male Lead"
+              }
+            ],
+            "bookSource": {
+              "sceneId": "ovs_vd_cnxh_rec",
+              "expId": "bigdata_rec",
+              "strategyId": "go45niq9",
+              "strategyName": "",
+              "log_id": "dda0fb18ce740ecc9490f0bf86d33d4f"
+            },
+            "isEntry": 0,
+            "index": 0,
+            "corner": {
+              "cornerType": 3,
+              "name": "Doblado",
+              "color": "#4D65ED"
+            },
+            "dataFrom": "算法_推荐剧",
+            "cardType": 1,
+            "markNamesConnectKey": ", ",
+            "algorithmRecomDot": "{\"log_id\":\"dda0fb18ce740ecc9490f0bf86d33d4f\",\"ret_time\":\"1768013603866\",\"scene_id\":\"ovs_vd_cnxh_rec\",\"rec_id\":\"bigdata_rec\"}",
+            "playCount": "12.2M",
+            "bookShelfTime": 1766559306000,
+            "shelfTime": "2025-12-24 14:55:06",
+            "inLibrary": false
+          },
+          {
+            "bookId": "42000001359",
+            "bookName": "Después de 99 veces que terminamos (Doblado) ",
+            "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000001359/42000001359.jpg?t=1765521552900",
+            "chapterCount": 71,
+            "introduction": "Nora amó a José durante muchos años. Tras casarse, se vio repetidamente amenazada con el divorcio, obligada una y otra vez a ceder y tratar de salvar la relación. No fue hasta que descubrió las cartas de amor que José guardaba en secreto que comprendió que él la amaba de verdad, pero se divertía torturando su corazón. Desanimada y con el corazón roto, decidió aceptar el divorcio por 99ª vez y marcharse de manera definitiva. ",
+            "tags": [
+              "Traición",
+              "Demasiado Tarde",
+              "Amor Tóxico",
+              "Amor Después del Divorcio",
+              "Moderno",
+              "Romántico"
+            ],
+            "tagV3s": [
+              {
+                "tagId": 1400,
+                "tagName": "Traición",
+                "tagEnName": "Betrayal"
+              },
+              {
+                "tagId": 1654,
+                "tagName": "Demasiado Tarde",
+                "tagEnName": "All-Too-Late"
+              },
+              {
+                "tagId": 1635,
+                "tagName": "Amor Tóxico",
+                "tagEnName": "Toxic Love"
+              },
+              {
+                "tagId": 1636,
+                "tagName": "Amor Después del Divorcio",
+                "tagEnName": "Love After Divorce"
+              },
+              {
+                "tagId": 1352,
+                "tagName": "Moderno",
+                "tagEnName": "Modern"
+              },
+              {
+                "tagId": 1357,
+                "tagName": "Romántico",
+                "tagEnName": "Romance"
+              }
+            ],
+            "bookSource": {
+              "sceneId": "ovs_vd_cnxh_rec",
+              "expId": "bigdata_rec",
+              "strategyId": "go45niq9",
+              "strategyName": "",
+              "log_id": "dda0fb18ce740ecc9490f0bf86d33d4f"
+            },
+            "isEntry": 0,
+            "index": 0,
+            "corner": {
+              "cornerType": 6,
+              "name": "Popular",
+              "color": "#FF2965"
+            },
+            "dataFrom": "算法_推荐剧",
+            "cardType": 1,
+            "markNamesConnectKey": ", ",
+            "algorithmRecomDot": "{\"log_id\":\"dda0fb18ce740ecc9490f0bf86d33d4f\",\"ret_time\":\"1768013603866\",\"scene_id\":\"ovs_vd_cnxh_rec\",\"rec_id\":\"bigdata_rec\"}",
+            "playCount": "22.8M",
+            "bookShelfTime": 1765528705000,
+            "shelfTime": "2025-12-12 16:38:25",
+            "inLibrary": false
+          },
+          {
+            "bookId": "42000001771",
+            "bookName": "De lágrimas a flores (Doblado)",
+            "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000001771/42000001771.jpg?t=1765941348763",
+            "chapterCount": 60,
+            "introduction": "Tras dar a luz a gemelos para la familia Silva, Vera muere desangrada al salvar al heredero, Félix, con un amuleto ensangrentado en sus manos. Siete años después, sin voz ni recuerdos, sobrevive rebuscando entre desechos mientras cría a su hija, Gabi. Sin saberlo, Gabi y su compañero Félix comparten un pasado oculto que sale a la luz cuando un inocente ensayo titulado “Mamá” desata una serie de revelaciones impactantes.",
+            "tags": [
+              "Lazos Familiares",
+              "Identidad Oculta",
+              "Redención",
+              "Bebé Secreto",
+              "Madre Soltera",
+              "Moderno"
+            ],
+            "tagV3s": [
+              {
+                "tagId": 1408,
+                "tagName": "Lazos Familiares",
+                "tagEnName": "Family Bonds"
+              },
+              {
+                "tagId": 1395,
+                "tagName": "Identidad Oculta",
+                "tagEnName": "Hidden Identity"
+              },
+              {
+                "tagId": 1459,
+                "tagName": "Redención",
+                "tagEnName": "Redemption"
+              },
+              {
+                "tagId": 1397,
+                "tagName": "Bebé Secreto",
+                "tagEnName": "Secret Baby"
+              },
+              {
+                "tagId": 1377,
+                "tagName": "Madre Soltera",
+                "tagEnName": "Single Mom"
+              },
+              {
+                "tagId": 1352,
+                "tagName": "Moderno",
+                "tagEnName": "Modern"
+              }
+            ],
+            "bookSource": {
+              "sceneId": "ovs_vd_cnxh_rec",
+              "expId": "bigdata_rec",
+              "strategyId": "go45niq9",
+              "strategyName": "",
+              "log_id": "dda0fb18ce740ecc9490f0bf86d33d4f"
+            },
+            "isEntry": 0,
+            "index": 0,
+            "corner": {
+              "cornerType": 6,
+              "name": "Popular",
+              "color": "#FF2965"
+            },
+            "dataFrom": "算法_推荐剧",
+            "cardType": 1,
+            "rankVo": {
+              "rankType": 2,
+              "hotCode": "73.6K",
+              "recCopy": "Tendencias #7",
+              "sort": 7
+            },
+            "markNamesConnectKey": ", ",
+            "algorithmRecomDot": "{\"log_id\":\"dda0fb18ce740ecc9490f0bf86d33d4f\",\"ret_time\":\"1768013603866\",\"scene_id\":\"ovs_vd_cnxh_rec\",\"rec_id\":\"bigdata_rec\"}",
+            "playCount": "21.9M",
+            "bookShelfTime": 1765966578000,
+            "shelfTime": "2025-12-17 18:16:18",
+            "inLibrary": false
+          }
+        ],
+        "type": 1
+      },
+      {
+        "columnId": 447,
+        "title": "Próximamente",
+        "subTitle": "",
+        "style": "RESERVE_BOOK",
+        "bookList": [
+          {
+            "bookId": "42000003830",
+            "bookName": "Pedazos de nuestro amor",
+            "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000003830/42000003830.jpg?t=1767947109448",
+            "chapterCount": 64,
+            "introduction": "Dante, quien sobrevivió a un ataque en su infancia que terminó con la vida de sus padres, crece para unirse a la equipo de rescate y se casa con Victoria. Él empieza a inquietarse cuando ella se acerca de forma inusual al hijo adoptivo que tienen y a su padre, y su indiferencia eventual termina por separarlos. Cuando Dante regresa a su familia, su tío planea asesinarlo—pero Victoria arriesga su vida para protegerlo, confesando su amor y su arrepentimiento en sus brazos.",
+            "tags": [
+              "Persecución de Esposo",
+              "Traición",
+              "Demasiado Tarde",
+              "Lazos Familiares",
+              "Triángulo Amoroso",
+              "Identidad Oculta"
+            ],
+            "tagV3s": [
+              {
+                "tagId": 1681,
+                "tagName": "Persecución de Esposo",
+                "tagEnName": "Winning Him Back"
+              },
+              {
+                "tagId": 1341,
+                "tagName": "Traición",
+                "tagEnName": "Betrayal"
+              },
+              {
+                "tagId": 1658,
+                "tagName": "Demasiado Tarde",
+                "tagEnName": "All-Too-Late"
+              },
+              {
+                "tagId": 1348,
+                "tagName": "Lazos Familiares",
+                "tagEnName": "Family Bonds"
+              },
+              {
+                "tagId": 1413,
+                "tagName": "Triángulo Amoroso",
+                "tagEnName": "Love Triangle"
+              },
+              {
+                "tagId": 1338,
+                "tagName": "Identidad Oculta",
+                "tagEnName": "Hidden Identity"
+              }
+            ],
+            "isEntry": 0,
+            "index": 0,
+            "dataFrom": "运营",
+            "cardType": 1,
+            "markNamesConnectKey": ", ",
+            "playCount": "5.7K",
+            "reserveStatus": 0,
+            "bookShelfTime": 1768381200000,
+            "bookShelfStatus": 2,
+            "reserveSort": 0,
+            "reserveBookId": 1426,
+            "inLibrary": false
+          },
+          {
+            "bookId": "42000003833",
+            "bookName": "No soy tuyo… ni hoy, ni nunca",
+            "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000003833/42000003833.jpg?t=1767947914625",
+            "chapterCount": 71,
+            "introduction": "Momentos antes de morir, Susana Quintero descubre que su esposo, Carlos Lozano, saboteó su oportunidad de ir a la universidad al robar su carta de admisión y entregársela a su hermana. Al renacer, no pierde tiempo y reclama lo que siempre debió ser suyo. Mientras tanto, Carlos se dirige a la universidad con su hermana, llevando en la mano una carta de admisión falsa.",
+            "tags": [
+              "Renacimiento",
+              "Venganza",
+              "Persecución de Esposa",
+              "Lazos Familiares",
+              "Triángulo Amoroso",
+              "Heroína Fuerte"
+            ],
+            "tagV3s": [
+              {
+                "tagId": 1405,
+                "tagName": "Renacimiento",
+                "tagEnName": "Rebirth"
+              },
+              {
+                "tagId": 1394,
+                "tagName": "Venganza",
+                "tagEnName": "Revenge"
+              },
+              {
+                "tagId": 1401,
+                "tagName": "Persecución de Esposa",
+                "tagEnName": "Winning Her Back"
+              },
+              {
+                "tagId": 1408,
+                "tagName": "Lazos Familiares",
+                "tagEnName": "Family Bonds"
+              },
+              {
+                "tagId": 1380,
+                "tagName": "Triángulo Amoroso",
+                "tagEnName": "Love Triangle"
+              },
+              {
+                "tagId": 1361,
+                "tagName": "Heroína Fuerte",
+                "tagEnName": "Strong Heroine"
+              }
+            ],
+            "isEntry": 0,
+            "index": 0,
+            "dataFrom": "运营",
+            "cardType": 1,
+            "markNamesConnectKey": ", ",
+            "playCount": "6.6K",
+            "reserveStatus": 0,
+            "bookShelfTime": 1768381200000,
+            "bookShelfStatus": 2,
+            "reserveSort": 0,
+            "reserveBookId": 1427,
+            "inLibrary": false
+          },
+          {
+            "bookId": "42000003832",
+            "bookName": "Nuestra historia murió en tus manos",
+            "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000003832/42000003832.jpg?t=1767947682440",
+            "chapterCount": 70,
+            "introduction": "A pesar de una relación de diez años y tres de matrimonio, Simón enfrenta la hostilidad de su esposa, Ana, luego de que ella pierde la memoria en un accidente. Por más que él intenta, Ana insiste en que está enamorada de su hermano, lo rechaza y hasta logra que lo internen en un hospital psiquiátrico. Cuando la tristeza finalmente lo vence, Simón se casa con la heredera de la familia Zamora—dejando a Ana atrapada en el arrepentimiento, cuando ya es demasiado tarde.",
+            "tags": [
+              "Traición",
+              "Persecución de Esposo",
+              "Demasiado Tarde",
+              "Venganza",
+              "Triángulo Amoroso",
+              "Moderno"
+            ],
+            "tagV3s": [
+              {
+                "tagId": 1341,
+                "tagName": "Traición",
+                "tagEnName": "Betrayal"
+              },
+              {
+                "tagId": 1681,
+                "tagName": "Persecución de Esposo",
+                "tagEnName": "Winning Him Back"
+              },
+              {
+                "tagId": 1658,
+                "tagName": "Demasiado Tarde",
+                "tagEnName": "All-Too-Late"
+              },
+              {
+                "tagId": 1337,
+                "tagName": "Venganza",
+                "tagEnName": "Revenge"
+              },
+              {
+                "tagId": 1413,
+                "tagName": "Triángulo Amoroso",
+                "tagEnName": "Love Triangle"
+              },
+              {
+                "tagId": 1318,
+                "tagName": "Moderno",
+                "tagEnName": "Modern"
+              }
+            ],
+            "isEntry": 0,
+            "index": 0,
+            "dataFrom": "运营",
+            "cardType": 1,
+            "markNamesConnectKey": ", ",
+            "playCount": "6.3K",
+            "reserveStatus": 0,
+            "bookShelfStatus": 2,
+            "reserveSort": 1000,
+            "reserveBookId": 1428,
+            "inLibrary": false
+          }
+        ],
+        "type": 1
+      }
+    ],
+    "recommendList": {
+      "current": 1,
+      "size": 12,
+      "total": 13,
+      "records": [
+        {
+          "isEntry": 0,
+          "index": 0,
+          "dataFrom": "算法_推荐剧",
+          "cardType": 3,
+          "tagCardVo": {
+            "tagId": 1393,
+            "tagName": "Amor Después del Matrimonio",
+            "tagEnName": "Love After Marriage",
+            "tagBooks": [
+              {
+                "bookId": "42000000746",
+                "bookName": " Cuidado, Soy la Jefa (Doblado)",
+                "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000746/42000000746.jpg?t=1766654476867",
+                "bookSource": {
+                  "sceneId": "ovs_vd_tagcard_rec",
+                  "expId": "bigdata_rec",
+                  "strategyId": "g18f4j7b",
+                  "strategyName": "\"BASE\"",
+                  "log_id": "f7e10cfbe99a6b82f6f8711425fc71d4"
+                },
+                "algorithmRecomDot": "{\"log_id\":\"f7e10cfbe99a6b82f6f8711425fc71d4\",\"ret_time\":\"1768013603865\",\"scene_id\":\"ovs_vd_tagcard_rec\",\"rec_id\":\"bigdata_rec\"}"
+              },
+              {
+                "bookId": "42000001324",
+                "bookName": "Un trato con mi donante multimillonario (Doblado)",
+                "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000001324/42000001324.jpg?t=1765529465573",
+                "bookSource": {
+                  "sceneId": "ovs_vd_tagcard_rec",
+                  "expId": "bigdata_rec",
+                  "strategyId": "g18f4j7b",
+                  "strategyName": "\"BASE\"",
+                  "log_id": "f7e10cfbe99a6b82f6f8711425fc71d4"
+                },
+                "algorithmRecomDot": "{\"log_id\":\"f7e10cfbe99a6b82f6f8711425fc71d4\",\"ret_time\":\"1768013603865\",\"scene_id\":\"ovs_vd_tagcard_rec\",\"rec_id\":\"bigdata_rec\"}"
+              },
+              {
+                "bookId": "42000002990",
+                "bookName": "De abandonada a consentida: Todo gracias a mi bebé (Doblado) ",
+                "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000002990/42000002990.jpg?t=1767001809227",
+                "bookSource": {
+                  "sceneId": "ovs_vd_tagcard_rec",
+                  "expId": "bigdata_rec",
+                  "strategyId": "g18f4j7b",
+                  "strategyName": "\"BASE\"",
+                  "log_id": "f7e10cfbe99a6b82f6f8711425fc71d4"
+                },
+                "algorithmRecomDot": "{\"log_id\":\"f7e10cfbe99a6b82f6f8711425fc71d4\",\"ret_time\":\"1768013603865\",\"scene_id\":\"ovs_vd_tagcard_rec\",\"rec_id\":\"bigdata_rec\"}"
+              },
+              {
+                "bookId": "42000001177",
+                "bookName": "Casada por error, querida para siempre (Doblado)",
+                "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000001177/42000001177.jpg?t=1765346030782",
+                "bookSource": {
+                  "sceneId": "ovs_vd_tagcard_rec",
+                  "expId": "bigdata_rec",
+                  "strategyId": "g18f4j7b",
+                  "strategyName": "\"BASE\"",
+                  "log_id": "f7e10cfbe99a6b82f6f8711425fc71d4"
+                },
+                "algorithmRecomDot": "{\"log_id\":\"f7e10cfbe99a6b82f6f8711425fc71d4\",\"ret_time\":\"1768013603865\",\"scene_id\":\"ovs_vd_tagcard_rec\",\"rec_id\":\"bigdata_rec\"}"
+              }
+            ]
+          },
+          "markNamesConnectKey": ", ",
+          "playCount": "7.1K",
+          "inLibrary": false
+        },
+        {
+          "bookId": "42000002665",
+          "bookName": "De la ruina al triunfo: Cuando todo cambia (Doblado)",
+          "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000002665/42000002665.jpg?t=1766644162105",
+          "chapterCount": 83,
+          "introduction": "Cuando un doctor en ingeniería mecánica y de materiales transmigra accidentalmente al cuerpo del infame holgazán Raúl Urrugia, se ve ante la amenaza de perder la fortuna de su familia y a su esposa. Armado con conocimientos modernos, guía al pueblo hacia la prosperidad. Aunque sus acciones parecen imprudentes, Raúl cambia su destino, salva a su familia del desastre y, con el tiempo, gana el respeto de Sonia Lima.",
+          "tags": [
+            "De Débil a Fuerte",
+            "Reencarnación",
+            "Persona Insignificante",
+            "Armadura de Guion",
+            "Histórico",
+            "Protagonista Masculino Dominante"
+          ],
+          "tagV3s": [
+            {
+              "tagId": 1339,
+              "tagName": "De Débil a Fuerte",
+              "tagEnName": "Underdog Story"
+            },
+            {
+              "tagId": 1477,
+              "tagName": "Reencarnación",
+              "tagEnName": "Transmigration"
+            },
+            {
+              "tagId": 1331,
+              "tagName": "Persona Insignificante",
+              "tagEnName": "A Nobody"
+            },
+            {
+              "tagId": 1334,
+              "tagName": "Armadura de Guion",
+              "tagEnName": "The Chosen One"
+            },
+            {
+              "tagId": 1319,
+              "tagName": "Histórico",
+              "tagEnName": "Historical"
+            },
+            {
+              "tagId": 1323,
+              "tagName": "Protagonista Masculino Dominante",
+              "tagEnName": "Powerful Male Lead"
+            }
+          ],
+          "bookSource": {
+            "sceneId": "ovs_vd_cnxh_rec",
+            "expId": "bigdata_rec",
+            "strategyId": "go45niq9",
+            "strategyName": "",
+            "log_id": "dda0fb18ce740ecc9490f0bf86d33d4f"
+          },
+          "isEntry": 0,
+          "index": 0,
+          "corner": {
+            "cornerType": 6,
+            "name": "Popular",
+            "color": "#FF2965"
+          },
+          "dataFrom": "算法_推荐剧",
+          "cardType": 1,
+          "markNamesConnectKey": ", ",
+          "algorithmRecomDot": "{\"log_id\":\"dda0fb18ce740ecc9490f0bf86d33d4f\",\"ret_time\":\"1768013603866\",\"scene_id\":\"ovs_vd_cnxh_rec\",\"rec_id\":\"bigdata_rec\"}",
+          "playCount": "7.9M",
+          "bookShelfTime": 1766718011000,
+          "shelfTime": "2025-12-26 11:00:11",
+          "inLibrary": false
+        },
+        {
+          "bookId": "41000122227",
+          "bookName": "¡Anímate, cariño! (Doblado)   ",
+          "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x1/41x0/410x0/41000122227/41000122227.jpg?t=1765440082175",
+          "chapterCount": 57,
+          "introduction": "Ana, la mascota del equipo de animadoras del instituto sufre el acoso del abusón de la escuela. Además, un tornado destruye su casa, lo que la obliga a mudarse con su archienemigo de la infancia, al que lleva años sin ver, y que tiene el cariñoso mote de “Gordi”. Sorprendentemente, Gordi resulta ser el alto y atractivo capitán del equipo de baloncesto de la escuela.",
+          "tags": [
+            "De Enemigo a Amante",
+            "Amor de la Infancia",
+            "Chico Popular",
+            "Moderno",
+            "Romántico",
+            "Adulto Joven"
+          ],
+          "tagV3s": [
+            {
+              "tagId": 1390,
+              "tagName": "De Enemigo a Amante",
+              "tagEnName": "Enemy to Lover"
+            },
+            {
+              "tagId": 1381,
+              "tagName": "Amor de la Infancia",
+              "tagEnName": "Childhood Sweetheart"
+            },
+            {
+              "tagId": 1445,
+              "tagName": "Chico Popular",
+              "tagEnName": "Jock"
+            },
+            {
+              "tagId": 1352,
+              "tagName": "Moderno",
+              "tagEnName": "Modern"
+            },
+            {
+              "tagId": 1357,
+              "tagName": "Romántico",
+              "tagEnName": "Romance"
+            },
+            {
+              "tagId": 1438,
+              "tagName": "Adulto Joven",
+              "tagEnName": "Young Adult"
+            }
+          ],
+          "bookSource": {
+            "sceneId": "ovs_vd_cnxh_rec",
+            "expId": "bigdata_rec",
+            "strategyId": "go45niq9",
+            "strategyName": "",
+            "log_id": "dda0fb18ce740ecc9490f0bf86d33d4f"
+          },
+          "isEntry": 0,
+          "index": 0,
+          "corner": {
+            "cornerType": 6,
+            "name": "Popular",
+            "color": "#FF2965"
+          },
+          "dataFrom": "算法_推荐剧",
+          "cardType": 1,
+          "rankVo": {
+            "rankType": 1,
+            "hotCode": "639K",
+            "recCopy": "Populares #4",
+            "sort": 4
+          },
+          "markNamesConnectKey": ", ",
+          "algorithmRecomDot": "{\"log_id\":\"dda0fb18ce740ecc9490f0bf86d33d4f\",\"ret_time\":\"1768013603866\",\"scene_id\":\"ovs_vd_cnxh_rec\",\"rec_id\":\"bigdata_rec\"}",
+          "playCount": "78M",
+          "bookShelfTime": 1759217239000,
+          "shelfTime": "2025-09-30 15:27:19",
+          "inLibrary": false
+        },
+        {
+          "bookId": "42000001343",
+          "bookName": "Arrepentimiento tras el Divorcio (Doblado) ",
+          "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000001343/42000001343.jpg?t=1765518973248",
+          "chapterCount": 79,
+          "introduction": "En la víspera de Año Nuevo, Bella Jaramillo es hospitalizada debido a una recaída de cáncer, mientras su esposo, Hugo Peralta, pasa la noche en un parque de diversiones con su secretaria, Gloria Luna. Negando la gravedad de la enfermedad de Bella, Hugo le corta el apoyo económico y le da muchos regalos costosos a Gloria. Incluso cuando Bella enfrenta una cirugía crítica, Hugo se niega a firmar el consentimiento, dejándola completamente sola. ",
+          "tags": [
+            "Demasiado Tarde",
+            "Traición",
+            "Sentimientos Ocultos",
+            "Moderno",
+            "Romántico",
+            "BG"
+          ],
+          "tagV3s": [
+            {
+              "tagId": 1654,
+              "tagName": "Demasiado Tarde",
+              "tagEnName": "All-Too-Late"
+            },
+            {
+              "tagId": 1400,
+              "tagName": "Traición",
+              "tagEnName": "Betrayal"
+            },
+            {
+              "tagId": 1386,
+              "tagName": "Sentimientos Ocultos",
+              "tagEnName": "Secret Crush"
+            },
+            {
+              "tagId": 1352,
+              "tagName": "Moderno",
+              "tagEnName": "Modern"
+            },
+            {
+              "tagId": 1357,
+              "tagName": "Romántico",
+              "tagEnName": "Romance"
+            },
+            {
+              "tagId": 1358,
+              "tagName": "BG",
+              "tagEnName": "BG"
+            }
+          ],
+          "bookSource": {
+            "sceneId": "ovs_vd_cnxh_rec",
+            "expId": "bigdata_rec",
+            "strategyId": "go45niq9",
+            "strategyName": "",
+            "log_id": "dda0fb18ce740ecc9490f0bf86d33d4f"
+          },
+          "isEntry": 0,
+          "index": 0,
+          "corner": {
+            "cornerType": 6,
+            "name": "Popular",
+            "color": "#FF2965"
+          },
+          "dataFrom": "算法_推荐剧",
+          "cardType": 1,
+          "rankVo": {
+            "rankType": 1,
+            "hotCode": "418K",
+            "recCopy": "Populares #10",
+            "sort": 10
+          },
+          "markNamesConnectKey": ", ",
+          "algorithmRecomDot": "{\"log_id\":\"dda0fb18ce740ecc9490f0bf86d33d4f\",\"ret_time\":\"1768013603866\",\"scene_id\":\"ovs_vd_cnxh_rec\",\"rec_id\":\"bigdata_rec\"}",
+          "playCount": "30.1M",
+          "bookShelfTime": 1765528747000,
+          "shelfTime": "2025-12-12 16:39:07",
+          "inLibrary": false
+        }
+      ],
+      "pages": 2
+    },
+    "recommendListTitle": "Recomendación popular",
+    "newTheaterList": {
+      "current": 0,
+      "size": 0,
+      "total": 0,
+      "records": [],
+      "pages": 0
+    },
+    "cornerSwitch": true,
+    "reserveChannelFlag": true,
+    "isAlgorithmBanner": 0
+  },
+  "status": 0,
+  "message": "success",
+  "timestamp": 1768013603876,
+  "ip": "181.94.232.139",
+  "region": "巴拉圭",
+  "path": "/he001/theater",
+  "success": true
+}

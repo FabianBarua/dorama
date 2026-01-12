@@ -1,0 +1,59 @@
+const options = {
+  method: 'POST',
+  headers: {
+    version: '480',
+    'package-name': 'com.storymatrix.drama',
+    p: '47',
+    cid: 'DRA1000042',
+    apn: '2',
+    'country-code': 'PY',
+    mchid: '',
+    mbid: '',
+    tz: '180',
+    language: 'es',
+    mcc: '744',
+    locale: 'es_US',
+    is_root: '1',
+    'device-id': '917d3745-e595-4846-a69b-048568393995',
+    nchid: 'DRA1000042',
+    instanceid: '6d01ec0d9499e0c15d3bfa268352efbf',
+    md: 'Redmi Note 8',
+    'store-source': 'store_google',
+    mf: 'XIAOMI',
+    'local-time': '2026-01-10 00:55:34.309 -0300',
+    'time-zone': '-0300',
+    brand: 'Xiaomi',
+    lat: '0',
+    is_emulator: '0',
+    'current-language': 'es',
+    ov: '13',
+    userid: '389033070',
+    afid: '1768016879351-3886990526238050775',
+    'android-id': '000000004b1fb2184b1fb21800000000',
+    srn: '1080x2340',
+    ins: '1768016879363',
+    is_vpn: '1',
+    build: 'Build/TQ2B.230505.005.A1',
+    pline: 'ANDROID',
+    vn: '4.8.0',
+    'over-flow': 'new-fly',
+    tn: 'Bearer ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnlaV2RwYzNSbGNsUjVjR1VpT2lKVVJVMVFJaXdpZFhObGNrbGtJam96T0Rrd016TXdOekI5LjBaZ0lGZC1ydzZRbU5pclI4LVVfZjl5eGFvTlNqOW5BNVJsRzg5T0J1RnM=',
+    sn: 'MptYc5S3QPDdKsr7DgRBBi+fFqopDAbpr+JnK9UJtm75Fa0+C1ui0Ai+zK0R1ZPx95R7nQj4bgqBKnNLQ8RD/5d2fT+MDxbxxcScRwtj9vM+M6/xqsHB3EMPV+RQ5Vk1Y0nvBE2jP4pha6UxxlGho5fsgDAbvAPeiBFKKekxr3cULvSjNFypD0B8N1i3NIKqkthz9LTGfNDzpBI/XUJ5bpZblvILAI6YNE6/SNTCgsrrma76SjAZdQF9KgDsH12Aen0eNkzH9jjf5zDJG7CwyqNigM4os1cLxWzUdGwG2ABL8o5V/xRj5FU9VJ4XxBVYeZzlvB5kpwznjK06XiNODw==',
+    'active-time': '34912',
+    'content-type': 'application/json; charset=UTF-8',
+    host: 'sapi.dramaboxdb.com',
+    connection: 'Keep-Alive',
+    'accept-encoding': 'gzip',
+    'user-agent': 'okhttp/4.10.0'
+  },
+  // AVANZAR A LA NUEVA SECCIÓN AUMENTANDO EL PAGENO.
+  body: '{"newChannelStyle":1,"isNeedRank":1,"pageNo":1,"index":1,"channelId":42}'
+}
+
+fetch(
+  'https://sapi.dramaboxdb.com/drama-box/he001/theater?timestamp=1768017369220',
+  options
+)
+  .then(response => response.json())
+  .then(response => console.log(response))
+  .catch(err => console.error(err))

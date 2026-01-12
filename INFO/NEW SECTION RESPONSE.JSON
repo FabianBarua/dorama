@@ -1,0 +1,689 @@
+{
+  "data": {
+    "bannerList": [],
+    "watchHistory": [],
+    "columnVoList": [],
+    "recommendList": {
+      "current": 0,
+      "size": 0,
+      "total": 0,
+      "records": [],
+      "pages": 0
+    },
+    "newTheaterList": {
+      "current": 1,
+      "size": 10,
+      "total": 50,
+      "records": [
+        {
+          "bookId": "42000003817",
+          "bookName": "Mis Padres, los Multimillonarios Ocultos (Doblado)",
+          "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000003817/42000003817.jpg?t=1767941639930",
+          "chapterCount": 89,
+          "introduction": "La pareja más rica del mundo, Daniel Estrada y Helena Blanco, finalmente encuentran a su hijo perdido, Ricardo Estrada. Para poner a prueba su carácter, deciden disfrazarse como humildes trabajadores cuando se reencuentran. Para su sorpresa, Ricardo no solo acepta su supuesto origen, sino que también les presenta a su novia, Adriana Flores. Sin embargo, la familia Flores desprecian a Daniel y Helena, lo que causa que Ricardo cancele el compromiso para proteger a sus padres. ",
+          "tags": [
+            "Identidad Oculta",
+            "Lazos Familiares",
+            "Niño Perdido",
+            "Contraataque",
+            "Armadura de Guion",
+            "CEO"
+          ],
+          "tagV3s": [
+            {
+              "tagId": 1338,
+              "tagName": "Identidad Oculta",
+              "tagEnName": "Hidden Identity"
+            },
+            {
+              "tagId": 1348,
+              "tagName": "Lazos Familiares",
+              "tagEnName": "Family Bonds"
+            },
+            {
+              "tagId": 1476,
+              "tagName": "Niño Perdido",
+              "tagEnName": "Lost Child"
+            },
+            {
+              "tagId": 1340,
+              "tagName": "Contraataque",
+              "tagEnName": "Counterattack"
+            },
+            {
+              "tagId": 1334,
+              "tagName": "Armadura de Guion",
+              "tagEnName": "The Chosen One"
+            },
+            {
+              "tagId": 1324,
+              "tagName": "CEO",
+              "tagEnName": "Billionaire"
+            }
+          ],
+          "isEntry": 0,
+          "index": 0,
+          "corner": {
+            "cornerType": 2,
+            "name": "Nuevo",
+            "color": "#4D65ED"
+          },
+          "dataFrom": "算法_推荐剧",
+          "cardType": 1,
+          "rankVo": {
+            "rankType": 3,
+            "hotCode": "12.7K",
+            "recCopy": "Nuevos #4",
+            "sort": 4
+          },
+          "markNamesConnectKey": ", ",
+          "algorithmRecomDot": "{\"log_id\":\"319fd6973bf3b808ea96760671e8d606\",\"ret_time\":\"1768013709292\",\"scene_id\":\"ovs_vd_new_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+          "playCount": "197K",
+          "bookShelfTime": 1767950693000,
+          "shelfTime": "2026-01-09 17:24:53",
+          "inLibrary": false
+        },
+        {
+          "bookId": "42000003827",
+          "bookName": "Mi doble vida tras el volante (Doblado)   ",
+          "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000003827/42000003827.jpg?t=1767945777979",
+          "chapterCount": 70,
+          "introduction": "Luis Baro, un conductor de taxi, es elegido como yerno de la familia Santos al descubrir el Sr. Santos que su destino esconde una gran fortuna. Poco después, el patriarca cae en coma. Despreciado y humillado por la familia, incluso su esposa Sara le pide el divorcio. Por gratitud, Luis soporta todo, hasta que el destino lo convierte en el Rey del Recibimiento de los tres reinos.",
+          "tags": [
+            "Contraataque",
+            "Yerno",
+            "Armadura de Guion",
+            "Persecución de Esposo",
+            "Moderno",
+            "Protagonista Masculino Dominante"
+          ],
+          "tagV3s": [
+            {
+              "tagId": 1340,
+              "tagName": "Contraataque",
+              "tagEnName": "Counterattack"
+            },
+            {
+              "tagId": 1329,
+              "tagName": "Yerno",
+              "tagEnName": "Son-in-Law"
+            },
+            {
+              "tagId": 1334,
+              "tagName": "Armadura de Guion",
+              "tagEnName": "The Chosen One"
+            },
+            {
+              "tagId": 1681,
+              "tagName": "Persecución de Esposo",
+              "tagEnName": "Winning Him Back"
+            },
+            {
+              "tagId": 1318,
+              "tagName": "Moderno",
+              "tagEnName": "Modern"
+            },
+            {
+              "tagId": 1323,
+              "tagName": "Protagonista Masculino Dominante",
+              "tagEnName": "Powerful Male Lead"
+            }
+          ],
+          "isEntry": 0,
+          "index": 0,
+          "corner": {
+            "cornerType": 2,
+            "name": "Nuevo",
+            "color": "#4D65ED"
+          },
+          "dataFrom": "算法_推荐剧",
+          "cardType": 1,
+          "markNamesConnectKey": ", ",
+          "algorithmRecomDot": "{\"log_id\":\"319fd6973bf3b808ea96760671e8d606\",\"ret_time\":\"1768013709292\",\"scene_id\":\"ovs_vd_new_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+          "playCount": "66.5K",
+          "bookShelfTime": 1767962190000,
+          "shelfTime": "2026-01-09 20:36:30",
+          "inLibrary": false
+        },
+        {
+          "bookId": "42000001337",
+          "bookName": "Si me amaras más (Doblado)",
+          "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000001337/42000001337.jpg?t=1766654851349",
+          "chapterCount": 53,
+          "introduction": "Hace cinco años, Alejandro casi muere salvando a Bea, que le había donado a él su riñón, lo que le causó cáncer. Mientras ella buscaba tratamiento en el extranjero, Estrella, la secretaria de Alejandro, le miente y le dice que Bea le abandonó, y en realidad ella fue la donante. Traicionado, Alejandro se casa con Bea por orgullo, y la tortura hasta que su enfermedad reaparece. Tras perderlo todo, Alejandro descubre que Bea fue su auténtica salvadora...",
+          "tags": [
+            "Persecución de Esposa",
+            "Traición",
+            "Venganza",
+            "Triángulo Amoroso",
+            "Demasiado Tarde",
+            "Moderno"
+          ],
+          "tagV3s": [
+            {
+              "tagId": 1401,
+              "tagName": "Persecución de Esposa",
+              "tagEnName": "Winning Her Back"
+            },
+            {
+              "tagId": 1400,
+              "tagName": "Traición",
+              "tagEnName": "Betrayal"
+            },
+            {
+              "tagId": 1394,
+              "tagName": "Venganza",
+              "tagEnName": "Revenge"
+            },
+            {
+              "tagId": 1380,
+              "tagName": "Triángulo Amoroso",
+              "tagEnName": "Love Triangle"
+            },
+            {
+              "tagId": 1654,
+              "tagName": "Demasiado Tarde",
+              "tagEnName": "All-Too-Late"
+            },
+            {
+              "tagId": 1352,
+              "tagName": "Moderno",
+              "tagEnName": "Modern"
+            }
+          ],
+          "isEntry": 0,
+          "index": 0,
+          "corner": {
+            "cornerType": 2,
+            "name": "Nuevo",
+            "color": "#4D65ED"
+          },
+          "dataFrom": "算法_推荐剧",
+          "cardType": 1,
+          "rankVo": {
+            "rankType": 3,
+            "hotCode": "7.1K",
+            "recCopy": "Nuevos #9",
+            "sort": 9
+          },
+          "markNamesConnectKey": ", ",
+          "algorithmRecomDot": "{\"log_id\":\"319fd6973bf3b808ea96760671e8d606\",\"ret_time\":\"1768013709292\",\"scene_id\":\"ovs_vd_new_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+          "playCount": "89.2K",
+          "bookShelfTime": 1767948652000,
+          "shelfTime": "2026-01-09 16:50:52",
+          "inLibrary": false
+        },
+        {
+          "bookId": "42000003820",
+          "bookName": "Mi flechazo cree que soy un chico",
+          "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000003820/42000003820.jpg?t=1767944231982",
+          "chapterCount": 59,
+          "introduction": "Adriana finge su identidad para entrar en una academia de esgrima de élite solo para chicos, pero cuando su nuevo compañero de cuarto es el chico de oro de la escuela y su ex-ligue, mantenerse oculta podría ser más difícil que ganar.",
+          "tags": [
+            "Identidad Oculta",
+            "Amor Prohibido",
+            "Triángulo Amoroso",
+            "Sentimientos Ocultos",
+            "Moderno",
+            "Romántico"
+          ],
+          "tagV3s": [
+            {
+              "tagId": 1395,
+              "tagName": "Identidad Oculta",
+              "tagEnName": "Hidden Identity"
+            },
+            {
+              "tagId": 1379,
+              "tagName": "Amor Prohibido",
+              "tagEnName": "Forbidden Love"
+            },
+            {
+              "tagId": 1380,
+              "tagName": "Triángulo Amoroso",
+              "tagEnName": "Love Triangle"
+            },
+            {
+              "tagId": 1386,
+              "tagName": "Sentimientos Ocultos",
+              "tagEnName": "Secret Crush"
+            },
+            {
+              "tagId": 1352,
+              "tagName": "Moderno",
+              "tagEnName": "Modern"
+            },
+            {
+              "tagId": 1357,
+              "tagName": "Romántico",
+              "tagEnName": "Romance"
+            }
+          ],
+          "isEntry": 0,
+          "index": 0,
+          "corner": {
+            "cornerType": 2,
+            "name": "Nuevo",
+            "color": "#4D65ED"
+          },
+          "dataFrom": "算法_推荐剧",
+          "cardType": 1,
+          "rankVo": {
+            "rankType": 3,
+            "hotCode": "7.5K",
+            "recCopy": "Nuevos #8",
+            "sort": 8
+          },
+          "markNamesConnectKey": ", ",
+          "algorithmRecomDot": "{\"log_id\":\"319fd6973bf3b808ea96760671e8d606\",\"ret_time\":\"1768013709292\",\"scene_id\":\"ovs_vd_new_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+          "playCount": "85.8K",
+          "bookShelfTime": 1767956662000,
+          "shelfTime": "2026-01-09 19:04:22",
+          "inLibrary": false
+        },
+        {
+          "bookId": "42000003778",
+          "bookName": "Nadie se compara a mis siete hermanas",
+          "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000003778/42000003778.jpg?t=1767865754237",
+          "chapterCount": 75,
+          "introduction": "Álvaro Soto, conocido como el Inframundo y antiguo soberano de la temible Prisión Divina, regresa a la ciudad para descubrir la verdad tras la masacre de su familia. Allí lo esperan siete extraordinarias hermanas adoptivas: una CEO fría, una azafata internacional, una doctora prodigio, una streamer famosa, una superestrella del cine... Con su poder y contactos, Álvaro aplasta a sus enemigos, protege a sus hermanas y desvela los secretos de su propio origen.",
+          "tags": [
+            "Venganza",
+            "Identidad Oculta",
+            "Lazos Familiares",
+            "Magnate Divino",
+            "Mimos de Grupo",
+            "Moderno"
+          ],
+          "tagV3s": [
+            {
+              "tagId": 1337,
+              "tagName": "Venganza",
+              "tagEnName": "Revenge"
+            },
+            {
+              "tagId": 1338,
+              "tagName": "Identidad Oculta",
+              "tagEnName": "Hidden Identity"
+            },
+            {
+              "tagId": 1348,
+              "tagName": "Lazos Familiares",
+              "tagEnName": "Family Bonds"
+            },
+            {
+              "tagId": 1332,
+              "tagName": "Magnate Divino",
+              "tagEnName": "Divine Tycoon"
+            },
+            {
+              "tagId": 1336,
+              "tagName": "Mimos de Grupo",
+              "tagEnName": "Group Pampering"
+            },
+            {
+              "tagId": 1318,
+              "tagName": "Moderno",
+              "tagEnName": "Modern"
+            }
+          ],
+          "isEntry": 0,
+          "index": 0,
+          "corner": {
+            "cornerType": 2,
+            "name": "Nuevo",
+            "color": "#4D65ED"
+          },
+          "dataFrom": "算法_推荐剧",
+          "cardType": 1,
+          "markNamesConnectKey": ", ",
+          "algorithmRecomDot": "{\"log_id\":\"319fd6973bf3b808ea96760671e8d606\",\"ret_time\":\"1768013709292\",\"scene_id\":\"ovs_vd_new_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+          "playCount": "66.4K",
+          "bookShelfTime": 1767927657000,
+          "shelfTime": "2026-01-09 11:00:57",
+          "inLibrary": false
+        },
+        {
+          "bookId": "42000003816",
+          "bookName": "Aquí el que manda es mi guardaespaldas",
+          "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000003816/42000003816.jpg?t=1767941512635",
+          "chapterCount": 90,
+          "introduction": "Javier Campos, súper soldado de élite, acepta el encargo de don Leonel y regresa a Sumac. Se convirtió en el guardaespaldas y prometido de Paloma Leal, la presidenta del Grupo Leal. Al principio, Paloma lo menospreciaba y lo asignó como chófer para ocultar su verdadera identidad. Mientras Paloma se veía amenazada por rivales comerciales, Javier, con sus habilidades excepcionales, astucia empresarial y experiencia en el campo de batalla, la protegió en múltiples ocasiones.",
+          "tags": [
+            "Identidad Oculta",
+            "Contraataque",
+            "Amor Después del Matrimonio",
+            "Dios de la Guerra",
+            "Moderno",
+            "Protagonista Masculino Dominante"
+          ],
+          "tagV3s": [
+            {
+              "tagId": 1338,
+              "tagName": "Identidad Oculta",
+              "tagEnName": "Hidden Identity"
+            },
+            {
+              "tagId": 1340,
+              "tagName": "Contraataque",
+              "tagEnName": "Counterattack"
+            },
+            {
+              "tagId": 1423,
+              "tagName": "Amor Después del Matrimonio",
+              "tagEnName": "Love After Marriage"
+            },
+            {
+              "tagId": 1330,
+              "tagName": "Dios de la Guerra",
+              "tagEnName": "War God"
+            },
+            {
+              "tagId": 1318,
+              "tagName": "Moderno",
+              "tagEnName": "Modern"
+            },
+            {
+              "tagId": 1323,
+              "tagName": "Protagonista Masculino Dominante",
+              "tagEnName": "Powerful Male Lead"
+            }
+          ],
+          "isEntry": 0,
+          "index": 0,
+          "corner": {
+            "cornerType": 2,
+            "name": "Nuevo",
+            "color": "#4D65ED"
+          },
+          "dataFrom": "算法_推荐剧",
+          "cardType": 1,
+          "markNamesConnectKey": ", ",
+          "algorithmRecomDot": "{\"log_id\":\"319fd6973bf3b808ea96760671e8d606\",\"ret_time\":\"1768013709292\",\"scene_id\":\"ovs_vd_new_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+          "playCount": "67.5K",
+          "bookShelfTime": 1767949219000,
+          "shelfTime": "2026-01-09 17:00:19",
+          "inLibrary": false
+        },
+        {
+          "bookId": "42000003595",
+          "bookName": "El heredero perdido: Una venganza navideña (Doblado)",
+          "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000003595/42000003595.jpg?t=1767753501338",
+          "chapterCount": 52,
+          "introduction": "En Nochebuena, un simple empleado de mantenimiento es abandonado por su prometida, después de que ella le robe su patente revolucionaria. En la fiesta de Navidad de la compañía, ella y su nuevo prometido le humillan públicamente. Pero cuando un poderoso desconocido aparece en la fiesta y revela que es el desaparecido padre del empleado, los unen fuerzas para girar las tornas, y llevan a cabo una venganza navideña que nadie olvidará.",
+          "tags": [
+            "Identidad Oculta",
+            "Venganza",
+            "Lazos Familiares",
+            "Contraataque",
+            "Persona Insignificante",
+            "Moderno"
+          ],
+          "tagV3s": [
+            {
+              "tagId": 1338,
+              "tagName": "Identidad Oculta",
+              "tagEnName": "Hidden Identity"
+            },
+            {
+              "tagId": 1337,
+              "tagName": "Venganza",
+              "tagEnName": "Revenge"
+            },
+            {
+              "tagId": 1348,
+              "tagName": "Lazos Familiares",
+              "tagEnName": "Family Bonds"
+            },
+            {
+              "tagId": 1340,
+              "tagName": "Contraataque",
+              "tagEnName": "Counterattack"
+            },
+            {
+              "tagId": 1331,
+              "tagName": "Persona Insignificante",
+              "tagEnName": "A Nobody"
+            },
+            {
+              "tagId": 1318,
+              "tagName": "Moderno",
+              "tagEnName": "Modern"
+            }
+          ],
+          "isEntry": 0,
+          "index": 0,
+          "corner": {
+            "cornerType": 2,
+            "name": "Nuevo",
+            "color": "#4D65ED"
+          },
+          "dataFrom": "算法_推荐剧",
+          "cardType": 1,
+          "rankVo": {
+            "rankType": 3,
+            "hotCode": "28.4K",
+            "recCopy": "Nuevos #2",
+            "sort": 2
+          },
+          "markNamesConnectKey": ", ",
+          "algorithmRecomDot": "{\"log_id\":\"319fd6973bf3b808ea96760671e8d606\",\"ret_time\":\"1768013709292\",\"scene_id\":\"ovs_vd_new_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+          "playCount": "584K",
+          "bookShelfTime": 1767764543000,
+          "shelfTime": "2026-01-07 13:42:23",
+          "inLibrary": false
+        },
+        {
+          "bookId": "42000003585",
+          "bookName": "Mi papá, el héroe que despertó por mí (Doblado)",
+          "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000003585/42000003585.jpg?t=1767751110309",
+          "chapterCount": 80,
+          "introduction": "Hace 3 años, David quedó en estado vegetal tras salvar a su hija Nerea. 3 años después, cuando a Nerea le diagnosticaron leucemia, ella renunció a su propio tratamiento y se esforzó por reunir dinero para comprarle medicamentos a su padre. Su esfuerzo conmueve a todos, incluso a su estricta abuela María, quien vende su casa y las lleva a buscar a Violeta, la madre biológica. La familia de Simón las agrede, y en medio del caos, David despierta y patea a Simón de un solo golpe.",
+          "tags": [
+            "Regreso del Poderoso",
+            "Lazos Familiares",
+            "Contraataque",
+            "Identidad Oculta",
+            "Redención",
+            "Moderno"
+          ],
+          "tagV3s": [
+            {
+              "tagId": 10001,
+              "tagName": "Regreso del Poderoso",
+              "tagEnName": "Comeback Story"
+            },
+            {
+              "tagId": 1348,
+              "tagName": "Lazos Familiares",
+              "tagEnName": "Family Bonds"
+            },
+            {
+              "tagId": 1340,
+              "tagName": "Contraataque",
+              "tagEnName": "Counterattack"
+            },
+            {
+              "tagId": 1338,
+              "tagName": "Identidad Oculta",
+              "tagEnName": "Hidden Identity"
+            },
+            {
+              "tagId": 1478,
+              "tagName": "Redención",
+              "tagEnName": "Redemption"
+            },
+            {
+              "tagId": 1318,
+              "tagName": "Moderno",
+              "tagEnName": "Modern"
+            }
+          ],
+          "isEntry": 0,
+          "index": 0,
+          "corner": {
+            "cornerType": 2,
+            "name": "Nuevo",
+            "color": "#4D65ED"
+          },
+          "dataFrom": "算法_推荐剧",
+          "cardType": 1,
+          "markNamesConnectKey": ", ",
+          "algorithmRecomDot": "{\"log_id\":\"319fd6973bf3b808ea96760671e8d606\",\"ret_time\":\"1768013709292\",\"scene_id\":\"ovs_vd_new_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+          "playCount": "605K",
+          "bookShelfTime": 1767768298000,
+          "shelfTime": "2026-01-07 14:44:58",
+          "inLibrary": false
+        },
+        {
+          "bookId": "42000003673",
+          "bookName": "Atrapada en los brazos del rey de la mafia",
+          "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000003673/42000003673.jpg?t=1767774146960",
+          "chapterCount": 54,
+          "introduction": "En la noche de San Valentín, la enfermera Lidia Herce salva a un desconocido moribundo, y descubre que es Samuel Morata, un temido jefe de la mafia. Él le presenta un ultimátum brutal: casarse con él o morir. Atrapada en su mundo peligroso, el deseo choca con la rebeldía. Cuando el contrato de amor de 30 días llega a su fin, Lidia debe elegir entre la libertad… o la vida junto a un despiadado rey de la mafia.",
+          "tags": [
+            "Amor Forzado",
+            "Mafia",
+            "Traición",
+            "Amor Destinado",
+            "Amor Después del Matrimonio",
+            "Moderno"
+          ],
+          "tagV3s": [
+            {
+              "tagId": 1378,
+              "tagName": "Amor Forzado",
+              "tagEnName": "Forced Love"
+            },
+            {
+              "tagId": 1364,
+              "tagName": "Mafia",
+              "tagEnName": "Mafia"
+            },
+            {
+              "tagId": 1400,
+              "tagName": "Traición",
+              "tagEnName": "Betrayal"
+            },
+            {
+              "tagId": 1382,
+              "tagName": "Amor Destinado",
+              "tagEnName": "Destined Love"
+            },
+            {
+              "tagId": 1393,
+              "tagName": "Amor Después del Matrimonio",
+              "tagEnName": "Love After Marriage"
+            },
+            {
+              "tagId": 1352,
+              "tagName": "Moderno",
+              "tagEnName": "Modern"
+            }
+          ],
+          "isEntry": 0,
+          "index": 0,
+          "corner": {
+            "cornerType": 2,
+            "name": "Nuevo",
+            "color": "#4D65ED"
+          },
+          "dataFrom": "算法_推荐剧",
+          "cardType": 1,
+          "rankVo": {
+            "rankType": 3,
+            "hotCode": "115K",
+            "recCopy": "Nuevos #1",
+            "sort": 1
+          },
+          "markNamesConnectKey": ", ",
+          "algorithmRecomDot": "{\"log_id\":\"319fd6973bf3b808ea96760671e8d606\",\"ret_time\":\"1768013709292\",\"scene_id\":\"ovs_vd_new_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+          "playCount": "764K",
+          "bookShelfTime": 1767837489000,
+          "shelfTime": "2026-01-08 09:58:09",
+          "inLibrary": false
+        },
+        {
+          "bookId": "42000003567",
+          "bookName": "La furia de un padre: El poder lo devora todo",
+          "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000003567/42000003567.jpg?t=1767693041750",
+          "chapterCount": 60,
+          "introduction": "Manuel Rojas, exjefe del mundo subterráneo del Norte, se retira y vende carne de cerdo. Unos matones le exigen pagos por \"protección\", pero su exsubordinado Óscar Peña llega a tiempo con guardaespaldas y los intimida. Manuel le confiesa a Óscar que se retiró para que su hijo Fernando pudiera tener una vida estable. De repente, recibe una llamada: Fernando se ha metido en problemas.",
+          "tags": [
+            "Identidad Oculta",
+            "Contraataque",
+            "Lazos Familiares",
+            "Mafia",
+            "Moderno",
+            "Protagonista Masculino Dominante"
+          ],
+          "tagV3s": [
+            {
+              "tagId": 1338,
+              "tagName": "Identidad Oculta",
+              "tagEnName": "Hidden Identity"
+            },
+            {
+              "tagId": 1340,
+              "tagName": "Contraataque",
+              "tagEnName": "Counterattack"
+            },
+            {
+              "tagId": 1348,
+              "tagName": "Lazos Familiares",
+              "tagEnName": "Family Bonds"
+            },
+            {
+              "tagId": 1325,
+              "tagName": "Mafia",
+              "tagEnName": "Mafia"
+            },
+            {
+              "tagId": 1318,
+              "tagName": "Moderno",
+              "tagEnName": "Modern"
+            },
+            {
+              "tagId": 1323,
+              "tagName": "Protagonista Masculino Dominante",
+              "tagEnName": "Powerful Male Lead"
+            }
+          ],
+          "isEntry": 0,
+          "index": 0,
+          "corner": {
+            "cornerType": 2,
+            "name": "Nuevo",
+            "color": "#4D65ED"
+          },
+          "dataFrom": "算法_推荐剧",
+          "cardType": 1,
+          "markNamesConnectKey": ", ",
+          "algorithmRecomDot": "{\"log_id\":\"319fd6973bf3b808ea96760671e8d606\",\"ret_time\":\"1768013709292\",\"scene_id\":\"ovs_vd_new_video_rec\",\"rec_id\":\"bigdata_rec\"}",
+          "playCount": "133K",
+          "bookShelfTime": 1767756350000,
+          "shelfTime": "2026-01-07 11:25:50",
+          "inLibrary": false
+        }
+      ],
+      "pages": 5
+    },
+    "channelBuilder": {
+      "feedFrom": "rec_list",
+      "columnId": "rec_new",
+      "columnName": "推荐列表_新剧",
+      "moduleID": "rec_new",
+      "moduleName": "推荐列表_新剧"
+    },
+    "cornerSwitch": true,
+    "reserveChannelFlag": false,
+    "isAlgorithmBanner": 0
+  },
+  "status": 0,
+  "message": "success",
+  "timestamp": 1768013709307,
+  "ip": "181.94.232.139",
+  "region": "巴拉圭",
+  "path": "/he001/theater",
+  "success": true
+}

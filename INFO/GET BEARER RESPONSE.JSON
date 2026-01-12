@@ -1,0 +1,67 @@
+{
+  "data": {
+    "user": {
+      "uid": 389033070,
+      "visitorCount": 0,
+      "followCount": 0,
+      "lastLoginTime": 1768012695000,
+      "state": "伊塔普阿省",
+      "country": "巴拉圭",
+      "isVip": 0,
+      "servicePeriod": 0,
+      "isExVip": 0,
+      "membershipInfo": {
+        "membershipStatus": 1,
+        "membershipCardInfo": {
+          "membershipTitle": "Aún no eres miembro",
+          "points": 0,
+          "claimedPoints": false,
+          "hitNewPointsUI": false,
+          "membershipStatus": 1,
+          "shareId": "wvHPS8m4NU",
+          "membershipCardShareLink": "https://app.dramaocean.com/db_land_page/SHARE1050014.html?uid=32637b23713fe08f6088a9c5790bc781&lan=es&st=__ST__&sid=wvHPS8m4NU",
+          "membershipCardShareDescription": "Te regalo una tarjeta de membresía de DramaBox, válida por 72 horas. ¡Disfrutemos de los dramas juntos!",
+          "shareApps": ["1", "3", "6", "5", "7", "98", "99"],
+          "joinMembershipTitle": "Hazte miembro"
+        },
+        "memberExperienceOptimize": 0
+      },
+      "token": "ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnlaV2RwYzNSbGNsUjVjR1VpT2lKVVJVMVFJaXdpZFhObGNrbGtJam96T0Rrd016TXdOekI5LjBaZ0lGZC1ydzZRbU5pclI4LVVfZjl5eGFvTlNqOW5BNVJsRzg5T0J1RnM=",
+      "uploadFirebase": 1,
+      "homePageStyle": 0,
+      "revenueDisplay": "$ 0.00"
+    },
+    "bindDevice": true,
+    "bindLogin": false,
+    "idfaFlag": false,
+    "idfaBonus": 0,
+    "idfaTipTimes": 0,
+    "timeout": 6000,
+    "attributionPubParam": {
+      "chid": "DRA1000042",
+      "chidTime": 1768012695000,
+      "attributeSuccess": false,
+      "protected": false
+    },
+    "clipboardCue": 1,
+    "persona": "389033070",
+    "clipboardPopup": {
+      "popupCopy": "Para ayudarle a encontrar las series que quiere ver, DramaBox solicita permiso para acceder a su portapapeles.",
+      "buttonCopy": "Permitir",
+      "cancelCopy": "No permitir"
+    },
+    "ratePop": false,
+    "homePageStyle": 0,
+    "appThemeColorSwitch": 1,
+    "appThemeColor": 2,
+    "needCompliancePop": 0,
+    "persionalRecommend": 1
+  },
+  "status": 0,
+  "message": "success",
+  "timestamp": 1768013219962,
+  "ip": "181.94.232.139",
+  "region": "",
+  "path": "/ap001/bootstrap",
+  "success": true
+}

@@ -1,0 +1,58 @@
+const options = {
+  method: "POST",
+  headers: {
+    version: "480",
+    "package-name": "com.storymatrix.drama",
+    p: "47",
+    cid: "DRA1000042",
+    apn: "2",
+    "country-code": "PY",
+    mchid: "",
+    mbid: "",
+    tz: "180",
+    language: "es",
+    mcc: "744",
+    locale: "es_US",
+    is_root: "1",
+    "device-id": "917d3745-e595-4846-a69b-048568393995",
+    nchid: "DRA1000042",
+    instanceid: "6d01ec0d9499e0c15d3bfa268352efbf",
+    md: "Redmi Note 8",
+    "store-source": "store_google",
+    mf: "XIAOMI",
+    "local-time": "2026-01-10 00:47:59.334 -0300",
+    "time-zone": "-0300",
+    brand: "Xiaomi",
+    lat: "0",
+    is_emulator: "0",
+    "current-language": "es",
+    ov: "13",
+    userid: "389033070",
+    afid: "1768016879351-3886990526238050775",
+    "android-id": "000000004b1fb2184b1fb21800000000",
+    srn: "1080x2340",
+    ins: "",
+    is_vpn: "1",
+    build: "Build/TQ2B.230505.005.A1",
+    pline: "ANDROID",
+    vn: "4.8.0",
+    "over-flow": "new-fly",
+    tn: "Bearer ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnlaV2RwYzNSbGNsUjVjR1VpT2lKVVJVMVFJaXdpZFhObGNrbGtJam96T0Rrd016TXdOekI5LjBaZ0lGZC1ydzZRbU5pclI4LVVfZjl5eGFvTlNqOW5BNVJsRzg5T0J1RnM=",
+    sn: "ky47gvtcx8H9tt9Qc6jf26UMpVbAYZsFQWkGa2tjTCpFTe8mS3N//AGH4sGEVX1laBk9pQ/V7NIjlIdY1TVBOTK+pkLp9iqzG/+IgxX+SpMw3DdueYOIQv7O3BHqEGoxbn+IYzfMFXk6GuiLLqJQ7HGG4p2LyYrY7fVWQCxbv4+rV5HYxfLPUaxQgvocZvmceFdSJ2tVu49KFyQsLzSf+bTFZe1KfwpIXqCD0arXKVQBcZw3ukva8NrGZWjRqzn/TbynuAouzw8WmEp3LeBqBE29cfKCQ1F0JCOTtf3V8/INWFHdRgMXqvwAgamnxdpvzJIaookY7LiQGRS2JrmAog==",
+    "active-time": "384419",
+    "content-type": "application/json; charset=UTF-8",
+    host: "sapi.dramaboxdb.com",
+    connection: "Keep-Alive",
+    "accept-encoding": "gzip",
+    "user-agent": "okhttp/4.10.0",
+  },
+  body: '{"homePageStyle":0,"isNeedRank":1,"index":0,"type":0,"channelId":177}',
+};
+
+fetch(
+  "https://sapi.dramaboxdb.com/drama-box/he001/theater?timestamp=1768017263748",
+  options
+)
+  .then((response) => response.json())
+  .then((response) => console.log(response))
+  .catch((err) => console.error(err));

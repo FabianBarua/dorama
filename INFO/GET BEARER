@@ -1,0 +1,55 @@
+const options = {
+  method: "POST",
+  headers: {
+    version: "480",
+    "package-name": "com.storymatrix.drama",
+    p: "47",
+    cid: "DRA1000042",
+    apn: "2",
+    "country-code": "",
+    mchid: "",
+    mbid: "",
+    tz: "180",
+    language: "es",
+    mcc: "744",
+    locale: "es_US",
+    "device-id": "917d3745-e595-4846-a69b-048568393995",
+    nchid: "DRA1000042",
+    instanceid: "",
+    md: "Redmi Note 8",
+    "store-source": "store_google",
+    mf: "XIAOMI",
+    "local-time": "2026-01-10 00:47:59.334 -0300",
+    "time-zone": "-0300",
+    brand: "Xiaomi",
+    lat: "0",
+    "current-language": "es",
+    ov: "13",
+    userid: "",
+    afid: "1768016879351-3886990526238050775",
+    "android-id": "000000004b1fb2184b1fb21800000000",
+    srn: "1080x2340",
+    ins: "",
+    build: "Build/TQ2B.230505.005.A1",
+    pline: "ANDROID",
+    vn: "4.8.0",
+    "over-flow": "new-fly",
+    tn: "",
+    sn: "bDGELlJZkHX0sC/68w1EFv6MKs42W/Ptt2pAFNR235ZckR/7rJ1fMP9Vy+meEpuP163OwoLS5wBR63p75Tx9GXi865QREpjCjnFDrdNnBrLS1iBF++YbmHGInvWBpU528noWSVhVuarm7wOVa7M/bNano+GuMcc4yOFVpppu7GjRVjkpJpZ+87/iEBN3YxrQn1qut7bFhTzs8qNf2lxudwwFlNZhznKnPqV0FidWHOeBTCPUXJMRA7dMD3CgyS4zBEGxhZU1Rw8oZ1YGcM1eruXrABaPSMCbzpqxDlIxY5WPSz39gDU/bJB5xhFus9hjfdH8g3j/FyazKbjCPLmiUQ==",
+    "active-time": "559",
+    "content-type": "application/json; charset=UTF-8",
+    host: "sapi.dramaboxdb.com",
+    connection: "Keep-Alive",
+    "accept-encoding": "gzip",
+    "user-agent": "okhttp/4.10.0",
+  },
+  body: '{"distinctId":"8ac0c3633a93fce5"}',
+};
+
+fetch(
+  "https://sapi.dramaboxdb.com/drama-box/ap001/bootstrap?timestamp=1768016879879",
+  options
+)
+  .then((response) => response.json())
+  .then((response) => console.log(response))
+  .catch((err) => console.error(err));
