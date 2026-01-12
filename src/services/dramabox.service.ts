@@ -17,8 +17,8 @@ class DramaboxService {
 
   private generateIds () {
     return {
-      deviceId: crypto.randomUUID(),
-      androidId: crypto.randomBytes(16).toString('hex')
+      deviceId: 'e00803c4-db63-47e6-8d04-6143c82bb2a9',
+      androidId: '0000000007a0196c07a0196c00000000'
     }
   }
 
@@ -163,7 +163,8 @@ class DramaboxService {
     if (includeBearer && !bearerToken) {
       // Obtener nuevo token solo si no se proporcionó uno
       bearerToken = await this.fetchNewToken(ids.deviceId, ids.androidId)
-      headers['tn'] = bearerToken
+      headers['tn'] =
+        'Bearer ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnlaV2RwYzNSbGNsUjVjR1VpT2lKVVJVMVFJaXdpZFhObGNrbGtJam96T1RBMk5EWXhOelY5Lm8tY0xTQXpFdjJacl8ydDd4XzUyNnlzNHhtZFM0RHpCMjRidEZpbWRUbnM='
     } else if (bearerToken) {
       headers['tn'] = bearerToken
     }

@@ -17,8 +17,8 @@ Obtiene la página de inicio con dramas recomendados.
 
 **Ejemplo:**
 ```bash
-GET http://localhost:3000/api/dramabox/home
-GET http://localhost:3000/api/dramabox/home?channelId=177&isNeedRank=1
+GET http://localhost:5001/api/dramabox/home
+GET http://localhost:5001/api/dramabox/home?channelId=177&isNeedRank=1
 ```
 
 ### 2. GET `/api/dramabox/search`
@@ -29,7 +29,7 @@ Busca dramas por palabra clave.
 
 **Ejemplo:**
 ```bash
-GET http://localhost:3000/api/dramabox/search?keyword=camilo
+GET http://localhost:5001/api/dramabox/search?keyword=camilo
 ```
 
 ### 3. GET `/api/dramabox/getchapters`
@@ -46,7 +46,7 @@ Obtiene los capítulos de un drama específico.
 
 **Ejemplo:**
 ```bash
-GET http://localhost:3000/api/dramabox/getchapters?bookId=42000000746
+GET http://localhost:5001/api/dramabox/getchapters?bookId=42000000746
 ```
 
 ## Características
@@ -72,7 +72,7 @@ npm install
 npm run dev
 ```
 
-El servidor se ejecutará en `http://localhost:3000`
+El servidor se ejecutará en `http://localhost:5001`
 
 ## Estructura
 
