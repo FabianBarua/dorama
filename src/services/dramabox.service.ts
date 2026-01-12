@@ -9,33 +9,104 @@ import {
 } from '../types/requests.types'
 import { generateSn } from '../utils/signature.util'
 import crypto from 'crypto'
+import fs from 'fs/promises'
+import path from 'path'
 
 class DramaboxService {
   private readonly BASE_URL = 'https://sapi.dramaboxdb.com'
+  private readonly cachePath = path.resolve(
+    __dirname,
+    '../../INFO/device-cache.json'
+  )
+
+  private async readIdsCache () {
+    try {
+      const raw = await fs.readFile(this.cachePath, 'utf8')
+      const parsed = JSON.parse(raw)
+
+      if (parsed?.deviceId && parsed?.androidId && parsed?.distinctId) {
+        return parsed as {
+          deviceId: string
+          androidId: string
+          distinctId: string
+          createdAt?: number
+        }
+      }
+    } catch (error) {
+      console.warn('No cached device IDs found:', error)
+    }
+
+    return null
+  }
+
+  private async persistIds (ids: {
+    deviceId: string
+    androidId: string
+    distinctId: string
+    createdAt: number
+  }) {
+    await fs.mkdir(path.dirname(this.cachePath), { recursive: true })
+    await fs.writeFile(this.cachePath, JSON.stringify(ids, null, 2), 'utf8')
+  }
 
   constructor () {}
 
-  private generateIds () {
-    return {
-      deviceId: 's11803c4-gg33-47e6-2s33-6143c82bb2a9',
-      androidId: '0000000009op196c07a0196c00000000'
+  private generateAndroidId () {
+    return crypto.randomBytes(16).toString('hex')
+  }
+
+  private generateDistinctId () {
+    return crypto.randomBytes(8).toString('hex')
+  }
+
+  private async resolveIds (
+    deviceId?: string,
+    androidId?: string,
+    forceNew: boolean = false
+  ) {
+    const cached = forceNew ? null : await this.readIdsCache()
+
+    const resolved = {
+      deviceId: deviceId || cached?.deviceId || crypto.randomUUID(),
+      androidId: androidId || cached?.androidId || this.generateAndroidId(),
+      distinctId:
+        (!forceNew && cached?.distinctId) || this.generateDistinctId(),
+      createdAt: (!forceNew && cached?.createdAt) || Date.now()
     }
+
+    const hasChanges =
+      forceNew ||
+      !cached ||
+      cached.deviceId !== resolved.deviceId ||
+      cached.androidId !== resolved.androidId ||
+      cached.distinctId !== resolved.distinctId
+
+    if (hasChanges) {
+      await this.persistIds(resolved)
+    }
+
+    return resolved
   }
 
   // --- Token Methods ---
 
   private async fetchNewToken (
-    deviceId: string,
-    androidId: string,
+    ids: { deviceId: string; androidId: string; distinctId: string },
     language: string = 'es'
   ): Promise<string> {
     const timestamp = Date.now().toString()
     const url = `${this.BASE_URL}/drama-box/ap001/bootstrap?timestamp=${timestamp}`
 
-    const body = JSON.stringify({ distinctId: '8ac0c3633a93fce5' })
+    const body = JSON.stringify({ distinctId: ids.distinctId })
 
     // Headers específicos para bootstrap (sin token, tn vacío)
-    const signature = generateSn(timestamp, body, deviceId, androidId, '')
+    const signature = generateSn(
+      timestamp,
+      body,
+      ids.deviceId,
+      ids.androidId,
+      ''
+    )
 
     const locale = language === 'pt' ? 'pt_BR' : 'es_US'
     const countryCode = language === 'pt' ? 'BR' : 'PY'
@@ -53,7 +124,7 @@ class DramaboxService {
       language: language,
       mcc: '744',
       locale: locale,
-      'device-id': deviceId,
+      'device-id': ids.deviceId,
       nchid: 'DRA1000042',
       instanceid: '',
       md: 'Redmi Note 8',
@@ -70,7 +141,7 @@ class DramaboxService {
       ov: '13',
       userid: '',
       afid: `${Date.now()}-${Math.floor(Math.random() * 10000000000000000000)}`,
-      'android-id': androidId,
+      'android-id': ids.androidId,
       srn: '1080x2340',
       ins: '',
       build: 'Build/TQ2B.230505.005.A1',
@@ -117,9 +188,7 @@ class DramaboxService {
     token?: string,
     language: string = 'es'
   ) {
-    // Usar IDs proporcionados o generar nuevos
-    const ids =
-      deviceId && androidId ? { deviceId, androidId } : this.generateIds()
+    let ids = await this.resolveIds(deviceId, androidId)
 
     const locale = language === 'pt' ? 'pt_BR' : 'es_US'
     const countryCode = language === 'pt' ? 'BR' : 'PY'
@@ -169,15 +238,16 @@ class DramaboxService {
 
     let bearerToken = token || ''
     if (includeBearer && !bearerToken) {
-      // Obtener nuevo token solo si no se proporcionó uno
-      bearerToken = await this.fetchNewToken(
-        ids.deviceId,
-        ids.androidId,
-        language
-      )
-      headers['tn'] =
-        'Bearer ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnlaV2RwYzNSbGNsUjVjR1VpT2lKVVJVMVFJaXdpZFhObGNrbGtJam96T1RBMk5EWXhOelY5Lm8tY0xTQXpFdjJacl8ydDd4XzUyNnlzNHhtZFM0RHpCMjRidEZpbWRUbnM='
-    } else if (bearerToken) {
+      try {
+        bearerToken = await this.fetchNewToken(ids, language)
+      } catch (error) {
+        console.warn('Token fetch failed, regenerating device IDs...', error)
+        ids = await this.resolveIds(undefined, undefined, true)
+        bearerToken = await this.fetchNewToken(ids, language)
+      }
+    }
+
+    if (bearerToken) {
       headers['tn'] = bearerToken
     }
 
@@ -234,11 +304,22 @@ class DramaboxService {
       body
     })
 
+    console.log('📡 Response status:', response.status, response.statusText )
+
+    console.log('🌐 Home URL:', url)
+
+    console.log('🌍 Language:', language
+
+    )
     if (!response.ok) {
       throw new Error(`Error fetching home: ${response.statusText}`)
     }
 
-    return (await response.json()) as HomeResponse
+    const json = await response.json()
+    console.log('🏠 Home response received')
+
+    console.log('📋 Response JSON:', JSON.stringify(json) )
+    return json as HomeResponse
   }
 
   public async search (
