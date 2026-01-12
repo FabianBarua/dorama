@@ -4,7 +4,8 @@ import dramaboxService from '../services/dramabox.service'
 export class DramaboxController {
   public async getHome (req: Request, res: Response): Promise<void> {
     try {
-      const { homePageStyle, isNeedRank, index, type, channelId } = req.query
+      const { homePageStyle, isNeedRank, index, type, channelId, language } =
+        req.query
 
       const params: any = {}
       if (homePageStyle) params.homePageStyle = Number(homePageStyle)
@@ -12,6 +13,7 @@ export class DramaboxController {
       if (index) params.index = Number(index)
       if (type) params.type = Number(type)
       if (channelId) params.channelId = Number(channelId)
+      if (language && typeof language === 'string') params.language = language
 
       const response = await dramaboxService.getHome(params)
 
@@ -30,9 +32,14 @@ export class DramaboxController {
 
   public async search (req: Request, res: Response): Promise<void> {
     try {
-      const { keyword } = req.query
+      const { keyword, language } = req.query
 
-      console.log('🔍 Search request - keyword:', keyword)
+      console.log(
+        '🔍 Search request - keyword:',
+        keyword,
+        'language:',
+        language
+      )
 
       if (!keyword || typeof keyword !== 'string') {
         res.status(400).json({
@@ -42,7 +49,8 @@ export class DramaboxController {
         return
       }
 
-      const response = await dramaboxService.search(keyword)
+      const lang = typeof language === 'string' ? language : 'es'
+      const response = await dramaboxService.search(keyword, lang)
       console.log('📦 Response from API:', JSON.stringify(response, null, 2))
       console.log('📊 Response.data:', JSON.stringify(response.data, null, 2))
 

@@ -26,7 +26,8 @@ class DramaboxService {
 
   private async fetchNewToken (
     deviceId: string,
-    androidId: string
+    androidId: string,
+    language: string = 'es'
   ): Promise<string> {
     const timestamp = Date.now().toString()
     const url = `${this.BASE_URL}/drama-box/ap001/bootstrap?timestamp=${timestamp}`
@@ -36,19 +37,22 @@ class DramaboxService {
     // Headers específicos para bootstrap (sin token, tn vacío)
     const signature = generateSn(timestamp, body, deviceId, androidId, '')
 
+    const locale = language === 'pt' ? 'pt_BR' : 'es_US'
+    const countryCode = language === 'pt' ? 'BR' : 'PY'
+
     const headers: any = {
       version: '480',
       'package-name': 'com.storymatrix.drama',
       p: '47',
       cid: 'DRA1000042',
       apn: '2',
-      'country-code': '',
+      'country-code': countryCode,
       mchid: '',
       mbid: '',
       tz: '180',
-      language: 'es',
+      language: language,
       mcc: '744',
-      locale: 'es_US',
+      locale: locale,
       'device-id': deviceId,
       nchid: 'DRA1000042',
       instanceid: '',
@@ -110,11 +114,15 @@ class DramaboxService {
     body?: string,
     deviceId?: string,
     androidId?: string,
-    token?: string
+    token?: string,
+    language: string = 'es'
   ) {
     // Usar IDs proporcionados o generar nuevos
     const ids =
       deviceId && androidId ? { deviceId, androidId } : this.generateIds()
+
+    const locale = language === 'pt' ? 'pt_BR' : 'es_US'
+    const countryCode = language === 'pt' ? 'BR' : 'PY'
 
     const headers: any = {
       version: '480',
@@ -122,13 +130,13 @@ class DramaboxService {
       p: '47',
       cid: 'DRA1000042',
       apn: '2',
-      'country-code': 'PY',
+      'country-code': countryCode,
       mchid: '',
       mbid: '',
       tz: '180',
-      language: 'es',
+      language: language,
       mcc: '744',
-      locale: 'es_US',
+      locale: locale,
       'device-id': ids.deviceId,
       nchid: 'DRA1000042',
       instanceid: '6d01ec0d9499e0c15d3bfa268352efbf',
@@ -142,7 +150,7 @@ class DramaboxService {
       'time-zone': '-0300',
       brand: 'Xiaomi',
       lat: '0',
-      'current-language': 'es',
+      'current-language': language,
       ov: '13',
       userid: '389033070',
       afid: `${Date.now()}-${Math.floor(Math.random() * 10000000000000000000)}`,
@@ -162,7 +170,11 @@ class DramaboxService {
     let bearerToken = token || ''
     if (includeBearer && !bearerToken) {
       // Obtener nuevo token solo si no se proporcionó uno
-      bearerToken = await this.fetchNewToken(ids.deviceId, ids.androidId)
+      bearerToken = await this.fetchNewToken(
+        ids.deviceId,
+        ids.androidId,
+        language
+      )
       headers['tn'] =
         'Bearer ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnlaV2RwYzNSbGNsUjVjR1VpT2lKVVJVMVFJaXdpZFhObGNrbGtJam96T1RBMk5EWXhOelY5Lm8tY0xTQXpFdjJacl8ydDd4XzUyNnlzNHhtZFM0RHpCMjRidEZpbWRUbnM='
     } else if (bearerToken) {
@@ -184,9 +196,14 @@ class DramaboxService {
     return headers
   }
 
-  public async getHome (params?: Partial<HomeRequest>): Promise<HomeResponse> {
+  public async getHome (
+    params?: Partial<HomeRequest> & { language?: string }
+  ): Promise<HomeResponse> {
     const timestamp = Date.now().toString()
     const url = `${this.BASE_URL}/drama-box/he001/theater?timestamp=${timestamp}`
+
+    const language = params?.language || 'es'
+    const { language: _, ...restParams } = params || {}
 
     const defaultParams: HomeRequest = {
       homePageStyle: 0,
@@ -194,11 +211,19 @@ class DramaboxService {
       index: 0,
       type: 0,
       channelId: 177,
-      ...params
+      ...restParams
     }
 
     const body = JSON.stringify(defaultParams)
-    const headers = await this.getCommonHeaders(true, timestamp, body)
+    const headers = await this.getCommonHeaders(
+      true,
+      timestamp,
+      body,
+      undefined,
+      undefined,
+      undefined,
+      language
+    )
     headers['is_root'] = '1'
     headers['is_emulator'] = '0'
     headers['is_vpn'] = '1'
@@ -216,15 +241,27 @@ class DramaboxService {
     return (await response.json()) as HomeResponse
   }
 
-  public async search (keyword: string): Promise<BuscarKeywordsResponse> {
+  public async search (
+    keyword: string,
+    language: string = 'es'
+  ): Promise<BuscarKeywordsResponse> {
     const timestamp = Date.now().toString()
     const url = `${this.BASE_URL}/drama-box/search/suggest?timestamp=${timestamp}`
 
     console.log('🌐 Search URL:', url)
+    console.log('🌍 Language:', language)
     const body = JSON.stringify({ keyword })
     console.log('📝 Request body:', body)
 
-    const headers = await this.getCommonHeaders(true, timestamp, body)
+    const headers = await this.getCommonHeaders(
+      true,
+      timestamp,
+      body,
+      undefined,
+      undefined,
+      undefined,
+      language
+    )
     console.log('📋 Request headers:', headers)
 
     const response = await fetch(url, {
