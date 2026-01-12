@@ -98,8 +98,6 @@ export class DramaboxController {
       }
 
       const response = await dramaboxService.getChapters(params)
-      console.log('📦 Response from API:', JSON.stringify(response, null, 2))
-      console.log('✅ Chapters data retrieved successfully')
       res.status(200).json({
         success: true,
         data: response.data

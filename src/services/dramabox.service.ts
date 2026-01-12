@@ -17,8 +17,8 @@ class DramaboxService {
 
   private generateIds () {
     return {
-      deviceId: 'e00803c4-db63-47e6-8d04-6143c82bb2a9',
-      androidId: '0000000007a0196c07a0196c00000000'
+      deviceId: 's11803c4-gg33-47e6-2s33-6143c82bb2a9',
+      androidId: '0000000009op196c07a0196c00000000'
     }
   }
 
@@ -277,7 +277,6 @@ class DramaboxService {
     }
 
     const json = await response.json()
-    console.log('📥 Raw JSON response:', JSON.stringify(json, null, 2))
     return json as BuscarKeywordsResponse
   }
 
